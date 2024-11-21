@@ -1,0 +1,33 @@
+.CreatePage {
+  padding: 20px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    nav {
+      display: flex;
+      gap: 50px;
+
+      a {
+        font-style: 30px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      input {
+        padding: 10px;
+        height: 40px;
+      }
+      button {
+        height: 40px;
+      }
+    }
+  }
+}

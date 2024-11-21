@@ -1,0 +1,43 @@
+.TodoList {
+  padding: 20px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    nav {
+      display: flex;
+      gap: 50px;
+      a {
+        font-style: 30px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    .todos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      .card {
+        padding: 20px;
+        border-radius: 10px;
+        background: linear-gradient(to bottom, #c1c1c1, #000);
+        p {
+          color: #fff;
+          font-size: 20px;
+        }
+        .btns {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          button {
+            width: 100%;
+            padding: 4px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
