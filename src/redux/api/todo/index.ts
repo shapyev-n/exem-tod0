@@ -10,7 +10,7 @@ const api = index.injectEndpoints({
       providesTags: ["todo"],
     }),
 
-    createTodo: builder.mutation({
+    createTodo: builder.mutation<TODO.postResponse, TODO.postRequest>({
       query: (data) => ({
         url: `${process.env.NEXT_PUBLIC_CREATE}`,
         method: "POST",
